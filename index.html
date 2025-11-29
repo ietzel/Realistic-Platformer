@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pathfinder 1e Platformer</title>
+    <title>(WIP MERN Stack) Accurate Platformer</title>
     <style>
         body { background: #333; }
-        canvas { background: #000; display: block; margin: 20px auto; }
+        canvas { background: #000; display: block; margin: 20px auto; padding: 2px;}
     </style>
 </head>
 <body>
-    <canvas id="gameCanvas" width="1000" height="800"></canvas>
-    <script src="main.js"></script>
+    <h2>Aerospace Experiment Simulator</h2>
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+    </script>
     <script src="table.js"></script>
     <script src="creature.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
